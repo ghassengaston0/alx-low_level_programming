@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 /**
- *
+ * main - Entry point of the program
  * Return: (0) indicate success.
  */
 /* betty style doc for function main goes there */
