@@ -4,7 +4,8 @@
 
 /* more headers goes there */
 /**
- * Return: 0 indicate success.
+ *
+ * Return: (0) indicate success.
  */
 /* betty style doc for function main goes there */
 int main(void)
