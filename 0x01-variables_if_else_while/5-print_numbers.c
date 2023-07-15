@@ -5,14 +5,11 @@
  * Return: 0 indicate success.
  */
 int main(void)
-{
-int a = 'a';
+[
+int i = 0;
 
-for (; a <= 'z'; a++)
-{
-if (a != 'e' && a != 'q')
-putchar (a);
-}
-putchar ('\n');
+for (; i < 10 ; i++)
+printf("%d", i);
+printf("\n");
 return (0);
 }
