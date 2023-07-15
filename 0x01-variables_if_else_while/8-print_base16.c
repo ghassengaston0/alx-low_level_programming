@@ -6,10 +6,14 @@
  */
 int main(void)
 {
-int a = 'z';
+int i = '0';
 
-for (; a >= 'a'; a--)
-putchar (a);
+for (; i <= 102 ; i++)
+{
+putchar (i);
+if (i == 57)
+i = i + 39;
+}
 putchar ('\n');
 return (0);
 }
