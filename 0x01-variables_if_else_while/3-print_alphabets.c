@@ -1,21 +1,23 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
- * main - entry point.
+ * main - Entry point
  *
- * Return: 0 indicate success.
+ * Return: 0 indicates success
  */
 int main(void)
 {
-	int a = 'a';
-	int A = 'A';
-	for (; a <= 'z'; a++)
-		putchar (a)
+    int a = 'a';
+    int A = 'A';
+
+    for (; a <= 'z'; a++)
+        putchar(a);
+
+    for (; A <= 'Z'; A++)
+        putchar(A);
+
+    putchar('\n');
+
+    return 0;
 }
-for (; A <= 'Z'; a++)
-{
-	putchar(A)
-}
-putchar ('/n');
-return (0)
-	}
+
