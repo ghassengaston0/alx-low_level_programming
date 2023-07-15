@@ -1,18 +1,21 @@
 #include <stdio.h>
 
-void print_alphabet() {
-    char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
-
-    // Print alphabet and space
-    for (int i = 0; i < 53; i++) {
-        putchar(alphabet[i]);
-    }
-
-    putchar('\n');
+/**
+ * main - entry point.
+ *
+ * Return: 0 indicate success.
+ */
+int main(void)
+{
+	int a = 'a';
+	int A = 'A';
+	for (; a <= 'z'; a++)
+		putchar (a)
 }
-
-int main() {
-    print_alphabet();
-    return 0;
+for (; A <= 'Z'; a++)
+{
+	putchar(A)
 }
-
+putchar ('/n');
+return (0)
+	}
