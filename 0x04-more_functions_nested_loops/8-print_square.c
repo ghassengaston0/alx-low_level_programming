@@ -1,26 +1,26 @@
 #include "main.h"
 
 /**
- * print_square - prints a square followed by a new line.
- * @size:n  the size of the square
+ * print_square - prints a square in the terminal.
+ * @size: size of the square
  */
-void print_square(int n)
-{
-	int i;
 
-	if (n  <= 0)
-	{
-	_putchar('\n');
-	return;
-}
-else
+
+void print_square(int size)
 {
-	for (i = 0; i > n; i++)
+	int i, j;
+
+	if (size > 0)
 	{
-		_putchar('#')
+		for (i = 0 ; i < size ; i++)
+		{
+			for (j = 0 ; j < size ; j++)
+			{
+				_putchar ('#');
+			}
+			_putchar ('\n');
+		}
 	}
-	_putchar('\n')
+	else
+		_putchar ('\n');
 }
-}
-
-
