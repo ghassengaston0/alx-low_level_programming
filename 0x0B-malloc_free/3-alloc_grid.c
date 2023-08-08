@@ -5,14 +5,13 @@
  *@width: width input
  *@height: height input
  *Return: pointer to 2 dim. array
- *
  */
 int **alloc_grid(int width, int height)
 {
 	int **me;
 	int x, y;
 
-	if ( width <= 0 || height <= 0)
+	if (width <= 0 || height <= 0)
 		return (NUll);
 
 	me = malloc(sizeof(int*) * height);
