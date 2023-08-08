@@ -7,7 +7,7 @@
  *@str:char
  *Return: 0
  */
-char *_strdup(char*str)
+char* _strdup(char*str)
 {
 	char *aa;
 	int i, r = 0;
@@ -18,7 +18,7 @@ char *_strdup(char*str)
 	while (str[i] != '\0')
 		i++;
 
-	aa = malloc(sizeof(char) * (i+1)):
+	aa = malloc(sizeof(char) * (i + 1)):
 
 		if (aa == NULL)
 			return (NULL);
@@ -26,5 +26,5 @@ char *_strdup(char*str)
 	for (r = 0; str[r]; r++)
 		aa[r] = str [r];
 	return (aa);
-}
+
 
